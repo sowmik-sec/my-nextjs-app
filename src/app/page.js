@@ -9,6 +9,7 @@ async function HomePage() {
     },
   });
   const shoes = await res.json();
+  throw new Error("Error from home page");
   return (
     <div>
       <h1 className="text-4xl text-center">Hello world</h1>
