@@ -1,0 +1,40 @@
+{
+  "shoes": [
+    {
+      "id": "1",
+      "title": "Air Zoom Phantom",
+      "description": "A lightweight running shoe with responsive cushioning and breathable mesh.",
+      "price": 129.99
+    },
+    {
+      "id": "2",
+      "title": "StreetFlex Classic",
+      "description": "Retro-style sneakers perfect for daily wear with durable leather and rubber soles.",
+      "price": 89.5
+    },
+    {
+      "id": "3",
+      "title": "TrailMaster Pro",
+      "description": "Rugged trail shoes designed for hiking and off-road adventures.",
+      "price": 149.0
+    },
+    {
+      "id": "4",
+      "title": "UrbanStep X",
+      "description": "Sleek, all-black sneakers made for urban walking with memory foam insoles.",
+      "price": 99.95
+    },
+    {
+      "id": "5",
+      "title": "Velocity Runner V2",
+      "description": "Performance running shoes with added arch support and grip-enhancing outsole.",
+      "price": 115.25
+    },
+    {
+      "id": "6",
+      "title": "Comfort Glide Sandals",
+      "description": "Soft, cushioned sandals ideal for summer comfort and casual use.",
+      "price": 59.99
+    }
+  ]
+}
