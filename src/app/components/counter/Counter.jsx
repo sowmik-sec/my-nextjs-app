@@ -6,11 +6,17 @@ function Counter() {
 
   return (
     <div>
-      <button onClick={() => setCounter(counter + 1)} className="border-2 p-2">
+      <button
+        onClick={() => setCounter(counter + 1)}
+        className="btn btn-accent"
+      >
         Increase
       </button>
       <h1>{counter}</h1>
-      <button onClick={() => setCounter(counter - 1)} className="border-2 p-2">
+      <button
+        onClick={() => setCounter(counter - 1)}
+        className="btn btn-secondary"
+      >
         Decrease
       </button>
     </div>
