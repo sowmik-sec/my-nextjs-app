@@ -4,7 +4,9 @@ export const metadata = {
 };
 async function HomePage() {
   const res = await fetch("http://localhost:5000/shoes", {
-    cache: "force-cache",
+    next: {
+      revalidate: 30,
+    },
   });
   const shoes = await res.json();
   return (
